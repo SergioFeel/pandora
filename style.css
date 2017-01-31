@@ -1,0 +1,128 @@
+    /*-moz-background-size: 100%; /* Firefox 3.6+ 
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ 
+    -o-background-size: 100%; /* Opera 9.6+ 
+    background-size: 100%; */
+
+html {
+	height: 100%;
+	width: 100%;
+}
+	
+body { /*фон за картинкой, надписи Логин, Пароль, Велкам то панда*/
+    background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+}
+	
+#header { /*верхний блок: логин, пароль, кнопки*/
+	position: absolute;
+	top: 50px;
+	width: 100%;
+    border-bottom: 1px solid #b5b7ba;
+/*    background-color: #dfdfdf;сделал прозрачный фон*/
+    margin: 0 auto;
+    height: 0 auto; /* 200px */
+    text-align: left;
+    padding-top: 10px;
+}
+
+#content #slider img {
+	margin-left: 0 auto;
+	height: 70%;
+    width: 100%;
+    border-radius: 1px;
+}
+
+h3 {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+
+#footer {
+	border-bottom: 1px solid #b5b7ba;
+    background-color: #dfdfdf;
+    margin: 0 auto;
+    height: 0 auto; /* 200px */
+    text-align: center;
+    padding-top: 10px;
+}
+	
+
+
+
+
+
+
+
+
+
+
+/*body {
+	background: #ccc; см. colorscheme.ru ...RGB
+	font-family: sans-serif;
+}
+
+#header {
+	background: #999;
+	text-align: center;
+	border: 1px solid; #000
+	margin-top: 18px;
+}
+
+#footer {
+	background: #aaa;
+	text-align: center;
+	height: 140px;
+	font-size: 24px;
+}
+
+#button1 a{
+    display: block;
+    float: left;
+    background-color:  #8cbbd3;
+    color:  #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:11px 51px;
+}
+
+#button2 a{
+    display: block;
+    float: left;
+    background-color:  #8cbbd3;
+    color:  #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:11px 51px;
+}
+
+#cell1 {
+    border: 1px solid #a0a0a0;
+    background-color: #f5f5f5;
+    width: 457px;
+    height: 34px;
+    padding-left:10px;
+    font-size:20px;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+
+#cell2 {
+    border: 1px solid #a0a0a0;
+    background-color: #f5f5f5;
+    width: 457px;
+    height: 34px;
+    padding-left:10px;
+    font-size:20px;
+    font-weight: 100;
+    margin-bottom: 12px;
+}

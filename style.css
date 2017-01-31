@@ -14,6 +14,7 @@ body { /*фон за картинкой, надписи Логин, Пароль
 }
 	
 #header { /*верхний блок: логин, пароль, кнопки*/
+/*	opacity: 0.5; прозрачный фон блока*/
 	position: absolute;
 	top: 50px;
 	width: 100%;
@@ -40,15 +41,17 @@ h3 {
 
 
 #footer {
+	position: relative;
+	top: -200px;
+	opacity: 0.7;
 	border-bottom: 1px solid #b5b7ba;
     background-color: #dfdfdf;
     margin: 0 auto;
     height: 0 auto; /* 200px */
+	width: 100%;
     text-align: center;
     padding-top: 10px;
 }
-	
-
 
 
 

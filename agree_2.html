@@ -1,0 +1,80 @@
+<meta charset='utf-8'>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+<html>
+	<head>
+	<title>Registration form</title>
+	</head>
+	<body>
+		<form>
+		<div id='form'>
+			<p><strong>Name</strong>
+			<input type='text' name='Name' placeholder=' Your Name'>
+			<p><strong>Surname</strong>
+			<input type='text' name='Surname' placeholder=' Your Surname'>
+			<p><strong>Birthday: </strong>
+			<input type='date' id='date' name='date'>
+			<p><strong>Gender</strong>
+			<input name='gender' type='radio' value='man'>Man</label>
+			<input name='gender' type='radio' value='woman'>Woman</label>
+			<p><strong>Tel. #</strong>
+			<input type='tel' name='tel' placeholder='+x xxx xxx xxxx'></p>
+			<p><strong>e-mail</strong>
+			<input name='e-mail' type='e-mail' placeholder='e-mail'>
+			<span class="input-wrap">
+			<p><strong>Password</strong><input type="password" placeholder='password' />
+			<button tabindex="-1" aria-hidden="true" class="password-reveal" type="button"><span class="fa fa-eye"></span></button>
+			</span>
+				<style>
+    input{
+        vertical-align: middle;
+        font-family: "Lucida Console", Monaco, monospace;
+    }
+    input::-ms-reveal,
+    input::-ms-clear
+    {
+        display: none;
+    }
+    .password-reveal{
+        border: none;
+        padding: 0;
+        width: 1.3em;
+        height: 1.2em;
+        margin-left: -1.9em;
+        vertical-align: middle;
+        background: none;
+        color: #555;
+        cursor: default;
+    }
+    .password-reveal:hover{
+        color: #222;
+    }
+				</style>
+				<script>
+(function() {
+    var eye = document.querySelector('.password-reveal');
+    eye.onmousedown = function() {
+        return false;
+    };
+    eye.onclick = function() {
+        var input = this.previousElementSibling;
+        var selection = {start: input.selectionStart, end: input.selectionEnd};
+        input.type = {text: 'password', password: 'text'}[input.type];
+        input.selectionEnd = selection.end;
+        input.selectionStart = selection.start;
+        return false;
+    };
+})();
+				</script>
+<!--			<p><input name='password' type='password' placeholder='password' maxlength="25" id='pid'>
+			<p><input name='password' type='password' placeholder='password' maxlength="25" id='pid'>
+			<a href="#" onclick="ShowHidePassword('pid')">Show password</a>
+            <p><a href='agree.html'><input type='submit' value='Register'></a>-->
+ 
+			
+			<p> Вы так же можете войти другим способом: VK, Fb, instagram, odnoklsss, google+, LinkedIn, Pinterest, mail.ru, Badoo, Tinder, FourSquare, LiveJournal, twitter, tumblr, MySpace, ...
+		</div>
+	</body>
+</html>
+
+
+

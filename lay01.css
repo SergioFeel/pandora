@@ -1,10 +1,51 @@
 html {
 	background-color: black;
 	color: white;
+	height: 100%;
+	width: 100%;
+}
+
+p {
+	text-align: center;
 }
 
 a {
 	color: white;
+	top: 10%;
+}
+
+img {
+	position: relative;
+	width: 99%;
+	height: 98%;
+}
+
+
+#content {
+	position: absolute;
+	background-color: #ddd;
+	float: left;
+	margin-left: 19%;
+	bottom: 45%;
+	width: 30%;
+	height: 10%;
+}
+
+#slider {
+	position: absolute;
+	background-color: #eee;
+	margin-left: 50%;
+	bottom: 45%;
+	width: 30%;
+	height: 10%;
+}
+
+#footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 10px;
+	width: 0 auto;
 }
 
 /*
@@ -15,7 +56,6 @@ content.text
 content.slider
 nav
 footer*/
-
 
 .button {
 	border: 2px solid #333; /*рамка*/

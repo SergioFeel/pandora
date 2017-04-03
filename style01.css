@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+
+
+
+
+
+body {
+	background-color: #c7c3d4;
+	font-family: 'Arial Narrow', 'Verdana', 'Tahoma', 'Lucida Sans', sans-serif;
+	font-size: 1em;
+}
+
+#header {
+	background-color: white;
+	text-align: center;
+	border: thin dotted;
+}
+
+#navigation { 
+	border: thin dotted;
+	background-color: #bdb1e4; 
+	position: relative;
+	}
+	
+#navigation span {
+	/*float: left; нудо уточнить как приложить друг к другу кнопки без флоата*/ 
+}
+
+#slider { /*превратить это в слайдер*/
+	text-align: center;
+}
+
+#panel {
+	border: thin dotted;
+	background-color: #bdb1e4;
+	text-align: center;
+}
+
+/*
+.panel {
+	background: url(icon.png) no-repeat top right; /*сделать картинку ссылкой, кусок кода зажат в html
+	border: thin dotted;
+	background-color: #89EC6A;	
+	float: left;
+}
+
+.field {
+	clear: both;
+	text-align: right;
+	line-height: 25px;
+}
+
+strong {
+	padding-right: 10px;
+	float: left;
+}*/
+
+#footer {
+	background-color: white;	
+	border: thin dotted;
+	text-align: center;
+}
